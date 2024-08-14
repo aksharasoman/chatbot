@@ -1,9 +1,29 @@
-This repository contains implementation of a Chatbot based on Gemini Flash LLM. The GUI is built using opensource python library called Panel.
 
-### To deploy the chatbot locally:
-Run this in the command-line:
+# Order-Bot for a Pizza Restaurant using (free) Gemini LLM API 🍕🤖
+Welcome to the Order-Bot repository, a pizza restaurant chatbot designed to streamline customer orders. 
 
-```panel serve v2_gemini-pizza-chatbot_chatInterface.ipynb --autoreload```
+This repository contains implementation of a Chatbot based on **Gemini 1.5 Flash LLM**. A user-friendly GUI is built using opensource python library called **Panel**.
+
+### Getting Started
+1. Clone the repository:
+```
+git clone https://github.com/aksharasoman/order-bot.git
+```
+
+2. Navigate to the project directory
+
+3. Install dependencies:
+```
+pip install -r requirements.txt
+```
+4. Deploy the chatbot locally::
+``` 
+panel serve v2_gemini-pizza-chatbot_chatInterface.ipynb --autoreload
+```
+  Click on the generated url to open the chatbot in your browser.
+
+5. Interact with the bot through the GUI.
+  
 
 ### Files' Description:
 Main File: v2_gemini-pizza-chatbot_chatInterface.ipynb
